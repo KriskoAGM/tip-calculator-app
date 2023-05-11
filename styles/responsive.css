@@ -1,0 +1,105 @@
+@media screen and (min-width: 969px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 600px;
+    }
+
+    .input-container {
+        width: 50%;
+        position: relative;
+    }
+
+    .tip-wrapper {
+        margin-top: 75px;
+    }
+
+    .people-count-wrapper {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .result-container {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-wrapper {
+        margin-top: auto;
+    }
+
+    .amount {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1264px) {
+    .logo-wrapper {
+        margin: 100px 0 80px;
+    }
+
+    body {
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+    }
+
+    .container {
+        width: 800px;
+        height: 400px;
+        margin-bottom: 150px;
+        border-radius: 25px;
+        box-shadow: 0px 10px 50px rgba(35, 195, 173, 0.1);
+    }
+
+    .first,
+    .result-container {
+        margin-top: 0;
+    }
+
+    .input-container {
+        width: 48%;
+    }
+
+    .tip-wrapper {
+        margin-top: unset;
+    }
+
+    .result-container {
+        width: 45%;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .tip {
+        margin-bottom: 15px;
+    }
+
+    .tip,
+    .btn-wrapper {
+        padding-inline: 13px;
+    }
+
+    .discount:hover {
+        background-color: var(--light-grayish-cyan);
+    }
+
+    .custom:hover {
+        background-color: var(--very-light-grayish-cyan);
+    }
+
+    .flex-container {
+        justify-content: unset;
+    }
+
+    .discount {
+        width: 30%;
+    }
+
+    .reset-btn {
+        padding-block: 14px;
+    }
+
+}
