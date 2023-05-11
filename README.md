@@ -15,7 +15,7 @@ To start a new calculation, you can simply click the reset button, and the page 
 
 ## Demo
 
-A demo of the app is available at [Tip Calculator](https://your-live-site-url.com)
+A demo of the app is available at [Tip Calculator](https://kriskoagm.github.io/tip-calculator-app/)
 
 ## Screenshots
 
