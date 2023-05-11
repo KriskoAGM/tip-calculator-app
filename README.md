@@ -26,5 +26,6 @@ A demo of the app is available at [Tip Calculator](https://your-live-site-url.co
 
 Contributions are welcome! If you would like to contribute to the project, please submit a pull request with your changes.
 
-License
+## License
+
 This project is licensed under the MIT License - see the LICENSE.md file for details.
