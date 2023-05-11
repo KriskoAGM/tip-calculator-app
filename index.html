@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/responsive.css">
+  <title>Tip calculator app</title>
+
+</head>
+
+<body>
+  <div class="logo-wrapper">
+    <img src="./images/logo.svg" alt="" class="logo">
+  </div>
+  <div class="container">
+    <div class="input-container">
+      <div class="input-wrapper input">
+        <p class="label first">Bill</p>
+        <input type="number" class="bill-input" id="bill-input" placeholder="0">
+        <img src="./images/icon-dollar.svg" alt="" class="icon">
+      </div>
+      <div class="tip-wrapper">
+        <p class="label">Select Tip %</p>
+        <div class="flex-container">
+          <input type="button" class="discount tip-btn" value="5%">
+          <input type="button" class="discount tip-btn" value="10%">
+          <input type="button" class="discount tip-btn" value="15%">
+          <input type="button" class="discount tip-btn" value="25%">
+          <input type="button" class="discount tip-btn" value="50%">
+          <input type="number" class="discount custom" id="custom-tip-input" placeholder="Custom">
+        </div>
+      </div>
+      <div class="people-count-wrapper input">
+        <div class="flex-text">
+          <p class="label">Number of people</p>
+          <p class="error-msg" id="error-msg" style="display: none;">Can't be zero</p>
+        </div>
+        <input type="number" id="people-count-input" placeholder="0">
+        <img src="./images/icon-person.svg" alt="" class="icon">
+      </div>
+    </div>
+    <div class="result-container">
+      <div class="tip tip-amount">
+        <div class="tip-amount-wrapper amount-wrapper">
+          <div class="text-wrapper">
+            <p class="text-wrapper-label">Tip Amount</p>
+            <p class="person-text">/ person</p>
+          </div>
+          <span class="tip-amount-person amount">$<span id="tip-amount">0.00</span></span>
+        </div>
+      </div>
+      <div class="tip total-amount">
+        <div class="total-amount-wrapper amount-wrapper">
+          <div class="text-wrapper">
+            <p class="text-wrapper-label">Total</p>
+            <p class="person-text">/ person</p>
+          </div>
+          <span class="total-amount-person amount">$<span id="total-amount">0.00</span></span>
+        </div>
+      </div>
+      <div class="btn-wrapper">
+        <input type="submit" class="reset-btn disabled" id="reset-btn" value="RESET" disabled>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
